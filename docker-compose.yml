@@ -1,0 +1,7 @@
+version: "1.0"
+services:
+  webapp:
+    build: .
+    image: rjedgemon/angular-app:latest
+    ports:
+    - "4200:4200"
